@@ -1,6 +1,6 @@
 <?php
 require_once 'Menu.php';
-require_once 'Util.php';
+require_once 'Util.php'; 
 
 try {
     $conn = new PDO("mysql:host=" . Util::$host . ";dbname=" . Util::$db, Util::$user, Util::$pass);
